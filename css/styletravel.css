@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav li {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  font-size: 20px;
+  margin: 40px;
+}
+
+nav li :hover {
+  text-decoration: underline;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav li a.current {
+  text-decoration: underline;
+  color: grey;
+}
+
+.skip a {
+  position: absolute;
+  top: -40px;
+}
+
+.skip:focus {
+  top: 20px;
+  position: absolute;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+nav a:focus {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.landscape {
+  position: relative;
+  display: inline-block;
+}
+
+.landscape img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.text1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.overword {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
